@@ -1,0 +1,183 @@
+:root {
+  --sidebar-bg-color: #2c2e3d;
+  --sidebar-text-color: #8f94aa;
+  --main-background-color: #ebebec;
+  --link-blue-color: #2d9cdb;
+}
+
+body {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+#left_section {
+  width: 17.86%;
+  background-color: var(--sidebar-bg-color);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+  height: 100%;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+#left_section .items {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+#left_section .items li {
+  list-style: none;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+}
+
+#left_section .items li:hover a,
+#left_section .items li:hover i {
+  color: white;
+  cursor: pointer;
+}
+
+#left_section .items li:active a,
+#left_section .items li:active i {
+  color: white;
+}
+
+#left_section .items li i {
+  color: var(--sidebar-text-color);
+  width: 2.4rem;
+  height: 2.4rem;
+  line-height: 24px;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+}
+
+#left_section .items li a {
+  text-decoration: none;
+  color: var(--sidebar-text-color);
+  font-weight: 400;
+  line-height: 24px;
+  transition: all 0.3s ease;
+}
+
+/* Main Interface Sections Starts Here  */
+.n1 {
+  display: flex;
+  align-items: center;
+}
+
+.n1 p {
+  font-size: 1.4rem;
+  margin-left: 1.6rem;
+}
+
+.n1 p span {
+  margin-left: 1.6rem;
+}
+
+#main_interface {
+  width: calc(100% - 17.86%);
+  background-color: var(--main-background-color);
+  margin-left: 17.86%;
+  position: relative;
+}
+
+#main_interface .navigation {
+  display: flex;
+  justify-content: end;
+  padding: 1rem 0;
+  background-color: white;
+}
+
+#main_interface .navigation .n1 {
+  margin-right: 2rem;
+}
+
+#main_interface .dashboard_link_tab {
+  margin-top: 1rem;
+}
+
+#main_interface .dashboard_link_tab a:link {
+  color: var(--link-blue-color);
+}
+#main_interface .dashboard_link_tab a:visited {
+  color: var(--link-blue-color);
+}
+#main_interface .dashboard_link_tab a {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+#main_interface .dashboard_link_tab p {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+#main_interface .dashboard_link_tab .dashboard-title-large {
+  font-size: 2.8rem;
+}
+
+#main_interface .dashboard_link_tab h1 {
+  margin-top: 4rem;
+}
+
+#main_interface .dashboard_link_tab h2 {
+  margin-top: 1.8rem;
+}
+.dashboard-title-medium {
+  font-size: 2.4rem;
+  margin-top: 1.6rem;
+}
+
+/* Clients Registration Dashboard */
+
+.clients_registration_dashboard {
+  width: 96%;
+  background-color: white;
+  height: 63.2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+}
+
+.row-cr-part {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.row-cr-part-odd {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.finance-dash-row-button-tab {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.finance-dash-row-button-tab a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin: 0.5rem;
+  display: inline-block;
+  background-color: #2c2e3d;
+  padding: 0.5rem 2rem;
+  color: #ebebec;
+}
+
+/* Main Interface Sections ENDED Here  */
