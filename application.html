@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/application.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Thiqa | Admin Dashboard</title>
+  </head>
+  <body>
+    <section id="left_section">
+      <div class="logo">
+        <img src="./images/thiq_logo.png" alt="" />
+      </div>
+
+      <div class="items">
+        <li>
+          <i class="fas fa-home"></i>
+          <a href="./index.html">Business Dashboard</a>
+        </li>
+        <li>
+          <i class="fas fa-file-contract"></i>
+          <a href="./application.html">Application Dashboard</a>
+        </li>
+        <li>
+          <i class="fas fa-user-friends"></i>
+          <a href="#">Client Registrations</a>
+        </li>
+        <li>
+          <i class="fas fa-file-invoice-dollar"></i>
+          <a href="#">Finance Applications</a>
+        </li>
+        <li>
+          <i class="fas fa-file-invoice"></i> <a href="#">SMS Templates</a>
+        </li>
+        <li>
+          <i class="fas fa-flag-checkered"></i> <a href="#">Collections</a>
+        </li>
+        <li>
+          <i class="fas fa-file-invoice"></i> <a href="#">Disbursements</a>
+        </li>
+        <li>
+          <i class="fas fa-tools"></i>
+          <a href="#">Financing Settings</a>
+        </li>
+        <li>
+          <i class="fas fa-square-root-alt"></i> <a href="#">Credit Score</a>
+        </li>
+        <li>
+          <i class="fas fa-id-card-alt"></i> <a href="#">Employee Management</a>
+        </li>
+      </div>
+    </section>
+
+    <section id="main_interface">
+      <!-- Navbar right Starts  -->
+      <div class="navigation">
+        <div class="n1">
+          <img src="./images/avatar.png" alt="profile-image" />
+          <p class="profile">
+            John J Smith <span><i class="fas fa-chevron-down"></i></span>
+          </p>
+        </div>
+      </div>
+      <!-- Navbar right End  -->
+      <!-- Dashboard Link tab Text -->
+      <div class="dashboard_link_tab mleft-2">
+        <a href="./index.html">Home</a> <span>/</span>
+        <p>Application Dashboard</p>
+        <h1 class="dashboard-title-large">Application Dashboard</h1>
+      </div>
+      <!-- Dashboard Link tab Text -->
+
+      <div class="application_action_main">
+        <p class="rb">Action Items</p>
+        <p class="application-db-description gray-3">
+          Items, that need your attention today. Click on each item to see
+          details.
+        </p>
+        <div class="application_report_panel">
+          <div class="redc application_report-card">
+            <div class="icon-bg">
+              <i class="fas fa-bell redfc"></i>
+            </div>
+
+            <div class="card-text-box">
+              <p>Stalled Applications</p>
+              <h4>6</h4>
+            </div>
+          </div>
+          <div class="orange application_report-card">
+            <div class="icon-bg">
+              <i class="fas fa-flag orangefc"></i>
+            </div>
+
+            <div class="card-text-box">
+              <p>Idle Refinances</p>
+              <h4>44</h4>
+            </div>
+          </div>
+          <div class="blue2 application_report-card">
+            <div class="icon-bg">
+              <i class="fas fa-eye blue2fc"></i>
+            </div>
+
+            <div class="card-text-box">
+              <p>To Appraise</p>
+              <h4>17</h4>
+            </div>
+          </div>
+          <div class="blue2 application_report-card">
+            <div class="icon-bg">
+              <i class="fas fa-eye blue2fc"></i>
+            </div>
+
+            <div class="card-text-box">
+              <p>To Disburse</p>
+              <h4>25</h4>
+            </div>
+          </div>
+          <div class="green2 application_report-card">
+            <div class="icon-bg">
+              <i class="fas fa-credit-card green2fc"></i>
+            </div>
+
+            <div class="card-text-box">
+              <p>Collections</p>
+              <h4>31</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="application_action_main">
+        <p class="rb">Daily Metrics</p>
+
+        <div class="row-cr-part">
+          <div class="common-tab tile_grey mrgin-t">
+            <p>Client Registrations</p>
+            <h3>118</h3>
+          </div>
+          <div class="common-tab tile_grey mrgin-t">
+            <p>Number of Applications</p>
+            <h3>15</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

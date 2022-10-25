@@ -9,7 +9,52 @@ html {
   font-size: 62.5%;
 }
 
-/* Colors */
+/* font color */
+.redfc{
+  color: #eb5757;
+}
+
+.orangefc{
+  color: #f2994a;
+}
+
+.blue2fc{
+color: #2d9cdb;
+}
+
+.green2fc{
+  color: #27ae60;
+}
+.redc{
+  background-color: #eb5757;
+}
+
+.orange{
+  background-color: #f2994a;
+}
+
+.blue2{
+ background-color:  #2d9cdb;
+}
+
+.green2{
+  background-color: #27ae60;
+}
+.gray-3{
+  color: #828282;
+}
+/* Button Solors Starts  */
+
+.inactive {
+  background-color: #cfd2e4;
+}
+
+.active_dark {
+  background-color: #2c2e3d;
+}
+/* Button Colors ends  */
+
+/* Tile  Colors */
 
 .tile_grey {
   background-color: #e0e0e0;
@@ -35,7 +80,7 @@ html {
 }
 
 .tile_brown_light {
-  background-color: #ededed;
+  background-color: #fdf2d0;
 }
 
 .tile_blue_dark {
@@ -55,12 +100,14 @@ html {
 }
 
 .tile_pink_light {
-  background-color: #fdf2d0;
+  background-color: #E6D2DB;
 }
 
 .tile_orange {
   background-color: #f2994a;
 }
+
+/* tile colors  end*/
 
 .mleft-2 {
   margin-left: 2rem;
@@ -74,6 +121,10 @@ html {
 
 .mrgin-b {
   margin-bottom: 2rem;
+}
+
+.mt-4{
+  margin-top: 4rem;
 }
 
 .r {
@@ -100,11 +151,32 @@ html {
 .common-tab p {
   font-size: 1.4rem;
   font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .common-tab h3 {
   font-size: 2.1rem;
   font-weight: 700;
+
+}
+
+.normal_tab {
+  width: 16rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.normal_tab h3 {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.normal_tab p {
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .odd-tab-right {
@@ -115,7 +187,6 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .odd-tab-left {
@@ -126,7 +197,6 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .odd-tab-left h3 {
@@ -147,4 +217,17 @@ html {
 .odd-tab-right p {
   font-size: 1.4rem;
   font-weight: 500;
+}
+
+
+/* font-details */
+
+.rb{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.rr{
+  font-size: 1.4;
+  font-weight: 400;
 }
